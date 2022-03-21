@@ -20,10 +20,6 @@ $(".harfButon").on("click", (e) => {
     }
     else {
     degistirici(wtf=e.target.id);
-    console.log(arrayChecker);
-    
-   
-
     }
 });
 });
@@ -85,7 +81,6 @@ function ayirYazi() {
     kelimelik.push(yaziyiAyir); //ADDING EVERY LETTER TO KELIMELIK ARRAY
     winArray.push(i);
     }
-    console.log(kelimelik);
     var findMultiSpace=kelimelik.find(x=>x==" "); // FINDING SPACES IN ARRAY
     if(findMultiSpace) //IF WORD HAS SPACE APPEAR IT ON LABEL
         {

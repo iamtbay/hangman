@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Quicksand:wght@300&display=swap');
+body
+{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+.harfButon {
+    list-style: none;
+    border: 1px solid #c8f017;
+    display: inline-block;
+    margin-left: 5px;
+    padding: 1%;
+    cursor: pointer;
+    border-radius: 10%;
+    background-color: #c8f017;
+}
+.harfButon:hover {
+    border: 1px solid gray;
+}
+
+label {
+    font-size: 3rem;
+
+}
+
+.fa-heart {
+    color: #f02517;
+    margin-left: 5px;
+}
+.man {
+    height: 20px;
+    width: 20%;
+    text-align: center;
+    padding: 5%;
+}
+.box {
+    width: 100px;
+    height: 2px;
+    border: 2px solid black;
+    margin: 30% auto;
+    visibility: hidden;
+
+}
+ .pillar {
+     border: 2px solid black;
+     height: 90px;
+     width: 2px;
+     margin-left: 49%;
+     margin-top: -56%;
+     visibility: hidden;
+ }
+ .verticalPillar
+ {
+    border: 2px solid black;
+    height: 2px;
+    width: 70px;
+    margin-left: 30%;
+    margin-top: -25%;
+    visibility: hidden;  
+ }
+ .rope {
+    border: 2px solid black;
+    height: 7px;
+    width: 1px;
+    margin-left: 30%;
+    margin-top: 0%;  
+    visibility: hidden;
+ }
+
+ .head
+ {
+     border: 2px solid black;
+     height: 15px;
+     width: 15px;
+     border-radius: 50%;
+     margin-left: 28%;
+     visibility: hidden;
+ }
+ .body {
+     border: 2px solid black;
+     width: 20px;
+     height: 25px;
+     margin-top: 0;
+     margin-left: 27.5%;
+     visibility: hidden;
+ }
+ .leftArm {
+     border: 2px solid black;
+     width: 2px;
+     height: 25px;
+     transform: rotate(35deg);
+     margin-top: -7%;
+     margin-left: 25%;
+     visibility: hidden;
+ }
+ .rightArm {
+     border: 2px solid black;
+     width: 2px;
+     height: 25px;
+     transform: rotate(-35deg);
+     margin-top: -7.5%;
+     margin-left: 35%;
+     visibility: hidden;
+ }
+ 
+ .leftFoot {
+    border: 2px solid black;
+    width: 2px;
+    height: 25px;
+    transform: rotate(15deg);
+    margin-top: -1%;
+    margin-left: 27%;
+    visibility: hidden;
+}
+ 
+ .rightFoot {
+    border: 2px solid black;
+    width: 2px;
+    height: 25px;
+    transform: rotate(-15deg);
+    margin-top: -7.5%;
+    margin-left: 33%;
+    visibility: hidden;
+}
